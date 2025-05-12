@@ -1,3 +1,2 @@
 #!/bin/bash
-(ls -p -a | grep '^\.\/\?$' && ls -p -a | grep -v '^\.\/\?$' | LC_ALL=C sort) | sed -e 's/^.*\/$/&/' | paste -sd, - | tr -d '\n'
-echo
+(ls -ap | grep -E '^\.{1,2}/?$'; ls -ap | grep -vE '^\.{1,2}/?$' | LC_ALL=C sort) | paste -sd, -; echo
