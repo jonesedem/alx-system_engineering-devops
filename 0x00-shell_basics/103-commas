@@ -1,2 +1,2 @@
 #!/bin/bash
-(paste -sd, - <(ls -ap | grep -E '^\.{1,2}/?$'; ls -ap | grep -vE '^\.{1,2}/?$' | LC_ALL=C sort); echo)
+ls -amvp
