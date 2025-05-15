@@ -1,5 +1,5 @@
 total 48
-drwxr-xr-x 2 root root 281 May 15 06:23 .
+drwxr-xr-x 2 root root 281 May 15 07:00 .
 drwxr-xr-x 6 root root 141 May 13 04:27 ..
 -rwxr-xr-x 1 root root  32 May 13 04:29 0-hello_world
 -rwxr-xr-x 1 root root  28 May 13 04:33 1-confused_smiley
@@ -9,8 +9,8 @@ drwxr-xr-x 6 root root 141 May 13 04:27 ..
 -rwxr-xr-x 1 root root  29 May 13 05:06 5-firstlines
 -rwxr-xr-x 1 root root  40 May 13 05:20 6-third_line
 -rwxr-xr-x 1 root root  98 May 13 06:58 7-file
--rwxr-xr-x 1 root root  38 May 15 06:22 8-cwd_state
+-rwxr-xr-x 1 root root  36 May 15 07:00 8-cwd_state
 -rw-r--r-- 1 root root  12 May 13 05:42 \*\\'"Best School"\'\*\$\?\*\*\*\*\*\:\)
 -rw-r--r-- 1 root root  28 May 13 05:35 iacta
--rw-r--r-- 1 root root   0 May 15 06:23 ls_cwd_content
+-rw-r--r-- 1 root root   0 May 15 07:00 ls_cwd_content
 -rw-r--r-- 1 root root  24 May 13 04:28 README.md
