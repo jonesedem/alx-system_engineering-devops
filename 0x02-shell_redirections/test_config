@@ -1,0 +1,11 @@
+cat <<EOF > test_config
+# This is a comment
+SyslogFacility AUTHPRIV
+# Another comment
+AuthorizedKeysFile  .ssh/authorized_keys
+UsePrivilegeSeparation sandbox # Default for new installations.
+   # Indented comment
+AcceptEnv LANG LC_*
+Subsystem   sftp    /usr/libexec/sftp-server
+
+EOF
